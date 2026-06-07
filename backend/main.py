@@ -78,27 +78,30 @@ class ChatResponse(BaseModel):
 
 @app.post("/chat", response_model=ChatResponse)
 async def chat(request: ChatRequest):
-    context = build_context(request.message)
+    try:
+        context = build_context(request.message)
 
-    messages = [{"role": "system", "content": SYSTEM_PROMPT}]
+        messages = [{"role": "system", "content": SYSTEM_PROMPT}]
 
-    if context:
-        messages.append({
-            "role": "system",
-            "content": f"Relevant knowledge from Vanaj.ai database:\n{context}"
-        })
+        if context:
+            messages.append({
+                "role": "system",
+                "content": f"Relevant knowledge from Vanaj.ai database:\n{context}"
+            })
 
-    for msg in request.history[-6:]:
-        messages.append(msg)
+        for msg in request.history[-6:]:
+            messages.append(msg)
 
-    messages.append({"role": "user", "content": request.message})
+        messages.append({"role": "user", "content": request.message})
 
-    response = client.chat.completions.create(
-        model="llama3-8b-8192",
-        messages=messages,
-    )
+        response = client.chat.completions.create(
+            model="llama3-8b-8192",
+            messages=messages,
+        )
 
-    return ChatResponse(reply=response.choices[0].message.content)
+        return ChatResponse(reply=response.choices[0].message.content)
+    except Exception as e:
+        return ChatResponse(reply=f"Error: {str(e)}")
 
 @app.get("/health")
 async def health():
