@@ -1,0 +1,1093 @@
+{
+  "crops": [
+    {
+      "name": "Paddy",
+      "scientificName": "Oryza sativa",
+      "diseases": [
+        {
+          "name": "Bacterial Leaf Blight",
+          "pathogen": "Xanthomonas oryzae pv. oryzae",
+          "cause": "A bacterium, Xanthomonas oryzae pv. oryzae, that enters through leaf tips, wounds and water pores (hydathodes) and multiplies inside the leaf vein system.",
+          "transmission": {
+            "routes": [
+              "Irrigation and rain water carrying bacteria from plant to plant",
+              "Infected seed and stubble left in the field",
+              "Wind-driven rain splashing bacterial ooze onto healthy leaves",
+              "Clipping of leaf tips during transplanting"
+            ]
+          },
+          "originSpread": "It begins when bacteria survive in seed, stubble or weed hosts. Warm temperatures (25–34 °C), high humidity and standing water let them enter through cut tips and natural pores. Bacterial ooze formed at night is washed by rain and irrigation to neighbouring plants. In the seedling stage a severe form called \"kresek\" wilts whole plants; later, classic blight produces yellow, wavy lesions along leaf margins that dry into straw-coloured streaks, cutting grain filling.",
+          "management": {
+            "organic": [
+              "Use certified, disease-free seed and resistant varieties (e.g. IRBB lines / Improved Samba Mahsuri where adapted).",
+              "Treat seed with hot water (52–54 °C) or a Pseudomonas fluorescens biocontrol soak.",
+              "Avoid clipping leaf tips at transplanting; drain the field periodically instead of keeping it continuously flooded.",
+              "Balance fertiliser — avoid excess nitrogen, which makes leaves soft and very susceptible."
+            ],
+            "chemical": [
+              "Spray a copper-based bactericide such as copper oxychloride (Blitox) at 2.5 g/litre.",
+              "Where permitted, use a combination of streptomycin sulphate + tetracycline (Streptocycline 100–300 ppm) tank-mixed with copper oxychloride."
+            ],
+            "application": [
+              "Start at the first appearance of marginal yellowing; never wait for whole-leaf drying.",
+              "Spray in the cool of early morning or evening, covering both leaf surfaces.",
+              "Repeat at 10–12 day intervals if rains continue; drain excess water before spraying.",
+              "Stop irrigation overflow between fields to prevent re-introduction after treatment."
+            ]
+          },
+          "affectedStages": [
+            "seedling",
+            "tillering",
+            "heading"
+          ]
+        },
+        {
+          "name": "Bacterial Leaf Streak",
+          "pathogen": "Xanthomonas oryzae pv. oryzicola",
+          "cause": "A closely related bacterium, Xanthomonas oryzae pv. oryzicola, which multiplies in the leaf tissue between veins rather than in the main vein system.",
+          "transmission": {
+            "routes": [
+              "Rain splash and overhead/flood water moving bacteria between leaves",
+              "Infected seed and crop residue",
+              "Bacterial ooze (tiny yellow beads) spread by wind-driven rain"
+            ]
+          },
+          "originSpread": "The bacteria survive on seed and stubble, then enter through stomata and small wounds during warm, very humid, rainy weather. They form narrow, water-soaked streaks between the leaf veins that look translucent when held to light, later turning yellow-brown. Distinct from leaf blight, the streaks are numerous, thin and bounded by veins. Heavy populations ooze yellow droplets that dry on the surface and are splashed onward, so the disease spreads fastest in storms and dense, over-fertilised stands.",
+          "management": {
+            "organic": [
+              "Sow clean, certified seed and grow tolerant varieties.",
+              "Hot-water seed treatment and Pseudomonas fluorescens seed/foliar application.",
+              "Plough in stubble and control weed grasses that harbour the bacterium.",
+              "Reduce plant density and avoid over-application of nitrogen."
+            ],
+            "chemical": [
+              "Foliar copper oxychloride at 2.5 g/litre.",
+              "Streptocycline (streptomycin + tetracycline) 100–250 ppm with copper oxychloride where its use is locally approved."
+            ],
+            "application": [
+              "Spray on first sighting of thin translucent streaks, before they coalesce.",
+              "Apply in calm, dry windows so the spray dries on the leaf and is not immediately washed off.",
+              "Re-spray after 10–12 days during a wet spell; cover the underside of leaves."
+            ]
+          },
+          "affectedStages": [
+            "tillering",
+            "heading"
+          ]
+        },
+        {
+          "name": "Bakanae (Foolish Seedling)",
+          "pathogen": "Fusarium fujikuroi (Gibberella fujikuroi)",
+          "cause": "The seed-borne fungus Fusarium fujikuroi, which releases the plant hormone gibberellin inside the seedling and forces abnormal elongation.",
+          "transmission": {
+            "routes": [
+              "Mainly seed-borne — carried on and inside infected grain",
+              "Spores released into the nursery water and soil",
+              "Air-borne spores from infected panicles back onto seed at harvest"
+            ]
+          },
+          "originSpread": "Infection starts on the seed. As the seedling grows, the fungus floods it with gibberellin, so affected plants become abnormally tall, thin and pale yellow, standing above healthy neighbours. Many die before transplanting; survivors are weak with poorly developed roots and often empty panicles. At flowering the fungus colonises new grain, completing the cycle. Warm nursery temperatures (around 30 °C) and infected seed lots make outbreaks worse.",
+          "management": {
+            "organic": [
+              "Use seed from healthy fields; reject lots with a history of bakanae.",
+              "Salt-water seed flotation (specific gravity ~1.13) to float out light, infected seed before sowing.",
+              "Hot-water seed treatment and soak with Trichoderma viride or Pseudomonas fluorescens.",
+              "Rogue out tall, abnormal seedlings in the nursery before they shed spores."
+            ],
+            "chemical": [
+              "Seed treatment with carbendazim or a carbendazim + mancozeb mixture (about 2 g/kg of seed).",
+              "Where available, treat seed with a triazole such as tebuconazole before sowing."
+            ],
+            "application": [
+              "Soak seed in the fungicide/biocontrol suspension for the recommended period (often 12–24 h), then sow.",
+              "For chemical seed dressing, coat dry seed evenly at 2 g/kg and sow within a day or two.",
+              "Maintain moderate nursery temperatures and avoid dense, over-warm seedbeds."
+            ]
+          },
+          "affectedStages": [
+            "seedling",
+            "tillering"
+          ]
+        },
+        {
+          "name": "Brown Spot",
+          "pathogen": "Bipolaris oryzae (Cochliobolus miyabeanus)",
+          "cause": "The fungus Bipolaris oryzae, strongly linked to poor, nutrient-starved soils — it is often called a \"disease of hunger\" because it explodes where the crop is stressed.",
+          "transmission": {
+            "routes": [
+              "Seed-borne — carried on discoloured grain",
+              "Air-borne spores (conidia) landing on leaves and panicles",
+              "Crop residue and soil debris from a previous infected crop"
+            ]
+          },
+          "originSpread": "Spores survive on seed and stubble and germinate on the leaf in warm, humid conditions with long leaf wetness. The disease is far worse on nutrient-deficient soils — low nitrogen, low potassium, and in particular silicon and manganese shortage. It produces small oval brown spots with a tan centre and yellow halo (like sesame seeds) on leaves; under stress these merge and scorch the leaf. On panicles it discolours and shrivels grain, lowering both yield and seed quality.",
+          "management": {
+            "organic": [
+              "Correct soil fertility first — apply balanced NPK plus potassium, and silica/manganese where deficient.",
+              "Use clean, certified seed and resistant varieties.",
+              "Seed treatment with Trichoderma or hot water; incorporate organic matter to improve soil health.",
+              "Avoid drought stress; keep the crop adequately and evenly watered."
+            ],
+            "chemical": [
+              "Seed treatment with a captan- or thiram-type fungicide.",
+              "Foliar mancozeb (2 g/litre) or a triazole such as propiconazole / tebuconazole at booting if spots are spreading."
+            ],
+            "application": [
+              "Begin foliar sprays when spots first appear on the upper leaves, especially before booting.",
+              "Spray to run-off covering both leaf surfaces; repeat after 12–15 days if weather stays humid.",
+              "Combine spraying with the fertility correction — chemicals alone rarely control a hungry crop."
+            ]
+          },
+          "affectedStages": [
+            "seedling",
+            "tillering",
+            "heading",
+            "mature"
+          ]
+        },
+        {
+          "name": "False Smut",
+          "pathogen": "Ustilaginoidea virens",
+          "cause": "The fungus Ustilaginoidea virens, which replaces individual grains with velvety spore balls that grow from green-yellow to orange and finally greenish-black.",
+          "transmission": {
+            "routes": [
+              "Air-borne spores landing on opening flowers",
+              "Soil-borne sclerotia and chlamydospores surviving between seasons",
+              "Contaminated seed carrying spores"
+            ]
+          },
+          "originSpread": "Resting bodies (sclerotia) in soil and spores on seed germinate around flowering. Infection happens at the booting-to-heading window when the flower is open, favoured by high humidity, rain at flowering and heavy nitrogen. The fungus converts grains into spore balls — first small and orange, later large and black — covered in powder that rubs off onto hands. Though only some grains per panicle are affected, the spores spread and the balls reduce grain quality and weight.",
+          "management": {
+            "organic": [
+              "Avoid excess nitrogen and split it so the crop is not lush at flowering.",
+              "Use clean seed and field sanitation — remove and destroy smut balls and stubble.",
+              "Grow less susceptible varieties and avoid very late, very dense planting."
+            ],
+            "chemical": [
+              "Preventive spray of propiconazole or a copper-based fungicide at the early booting stage.",
+              "A second protective spray of a triazole around 50% panicle emergence in high-risk seasons."
+            ],
+            "application": [
+              "Timing is everything — spray at boot leaf / early booting, BEFORE the panicle emerges; sprays after the balls form do not work.",
+              "Cover the upper canopy thoroughly in the evening.",
+              "Repeat once at heading if rains and high humidity continue."
+            ]
+          },
+          "affectedStages": [
+            "heading",
+            "mature"
+          ]
+        },
+        {
+          "name": "Grain Discolouration",
+          "pathogen": "Complex — Bipolaris, Curvularia, Fusarium, Alternaria & others",
+          "cause": "Not one organism but a complex of seed-infecting fungi (and sometimes bacteria) that colonise the grain during and after flowering, staining the husk brown, grey, pink or black.",
+          "transmission": {
+            "routes": [
+              "Air-borne spores of many fungi settling on the panicle",
+              "Seed-borne carry-over to the next crop",
+              "Splash from infected debris and neighbouring diseased panicles"
+            ]
+          },
+          "originSpread": "During flowering and grain filling, several weak pathogens land on the panicle. Continuous rain, high humidity and dew at heading, plus insect (bug) feeding punctures, let them enter the developing grain. They discolour the husk and may shrink the kernel, lowering germination and milling quality. Late harvest and damp storage make the staining worse, and the infected seed then carries the problem forward.",
+          "management": {
+            "organic": [
+              "Harvest on time and dry grain quickly to safe moisture (~12–14%).",
+              "Manage panicle-feeding bugs that create entry wounds.",
+              "Use clean seed, balanced nutrition and avoid very dense canopies that stay wet.",
+              "Seed treatment with Trichoderma before the next sowing."
+            ],
+            "chemical": [
+              "Protective spray of mancozeb or a propiconazole + a contact fungicide at heading/flowering in wet seasons.",
+              "Seed treatment with carbendazim + thiram before storage/sowing."
+            ],
+            "application": [
+              "Apply the foliar spray at flowering and again ~10 days later if it stays rainy.",
+              "Direct spray at the panicles, not just the leaves.",
+              "Pair sprays with timely harvest and rapid drying — chemicals cannot fix grain stained in damp storage."
+            ]
+          },
+          "affectedStages": [
+            "heading",
+            "mature"
+          ]
+        },
+        {
+          "name": "Rice Blast (Leaf & Neck)",
+          "pathogen": "Magnaporthe oryzae (Pyricularia oryzae)",
+          "cause": "The fungus Magnaporthe oryzae, the most damaging rice disease worldwide, attacking leaves, the node, the collar and — most destructively — the neck of the panicle.",
+          "transmission": {
+            "routes": [
+              "Air-borne spores (conidia) carried long distances by wind and dew",
+              "Seed-borne and stubble-borne survival",
+              "Splash from infected leaves and collateral grass hosts"
+            ]
+          },
+          "originSpread": "Spores survive on seed, stubble and weeds, then germinate on the leaf when there is a long film of dew or rain water and mild temperatures (around 25–28 °C). On leaves it makes spindle/eye-shaped lesions — grey centre, brown margin. The fungus loves heavy nitrogen, drought-stressed upland rice and cool misty nights. The deadly phase is \"neck blast\": the panicle base rots, turns black and breaks, leaving white, empty \"chaffy\" panicles and severe yield loss.",
+          "management": {
+            "organic": [
+              "Grow resistant varieties and rotate them to avoid the fungus adapting.",
+              "Split nitrogen and avoid lush, over-fed crops; keep silicon levels up.",
+              "Clean seed, Trichoderma/Pseudomonas seed treatment and stubble destruction.",
+              "Maintain a thin water layer rather than letting the field dry and stress the crop."
+            ],
+            "chemical": [
+              "Seed treatment with tricyclazole or carbendazim.",
+              "Foliar tricyclazole (0.6 g/litre) for leaf blast; a triazole/strobilurin (e.g. tebuconazole + trifloxystrobin) around heading for neck blast."
+            ],
+            "application": [
+              "Spray leaf blast at the first eye-shaped lesions during tillering.",
+              "For neck blast, apply protectively at boot-leaf and again at 50% heading — this is the critical spray.",
+              "Spray in the evening, cover the whole canopy, and repeat after 10–12 days under misty, dewy weather."
+            ]
+          },
+          "affectedStages": [
+            "seedling",
+            "tillering",
+            "heading"
+          ]
+        },
+        {
+          "name": "Sheath Blight",
+          "pathogen": "Rhizoctonia solani",
+          "cause": "The soil fungus Rhizoctonia solani, which survives as hard resting bodies (sclerotia) in soil and floats up to infect the lower sheath at the water line.",
+          "transmission": {
+            "routes": [
+              "Sclerotia floating on irrigation water to the plant base",
+              "Plant-to-plant contact as the canopy closes",
+              "Crop residue and soil from previous infected crops"
+            ]
+          },
+          "originSpread": "Sclerotia in the soil float to the surface and lodge against the sheath near the water line. In a dense, heavily fertilised canopy with high humidity and warm temperatures (28–32 °C), the fungus produces greenish-grey, oval \"snake-skin\" lesions on the sheath that climb upward leaf by leaf. White-to-brown mustard-sized sclerotia form on the lesions and drop back to the soil. Severe attacks reach the flag leaf, causing lodging and unfilled grain.",
+          "management": {
+            "organic": [
+              "Avoid very high seeding/transplant density and excess nitrogen — open the canopy.",
+              "Apply potassium and silica to strengthen the sheath.",
+              "Remove floating sclerotia and weeds; deep-plough residue.",
+              "Apply Trichoderma viridae or Pseudomonas fluorescens to soil/seedling roots."
+            ],
+            "chemical": [
+              "Foliar validamycin, hexaconazole or propiconazole directed at the base of the plant.",
+              "A triazole + strobilurin mix where pressure is high."
+            ],
+            "application": [
+              "Spray at maximum tillering to early booting when lesions appear on lower sheaths.",
+              "Direct the nozzle low, at the plant base and water line, not just the upper leaves.",
+              "Drain the field a little before spraying and repeat after 12–15 days if the canopy stays dense and wet."
+            ]
+          },
+          "affectedStages": [
+            "tillering",
+            "heading",
+            "mature"
+          ]
+        },
+        {
+          "name": "Sheath Rot",
+          "pathogen": "Sarocladium oryzae",
+          "cause": "The fungus Sarocladium oryzae, which rots the flag-leaf sheath that wraps the young panicle, so the panicle cannot emerge properly.",
+          "transmission": {
+            "routes": [
+              "Seed-borne carry-over",
+              "Air-borne spores landing on the boot",
+              "Wounds made by mites and stem-feeding insects opening the way in"
+            ]
+          },
+          "originSpread": "The fungus survives on seed and debris and infects the uppermost (flag-leaf) sheath around the booting stage, especially where mites or insects have wounded the boot. Warm, humid weather and a dense crop favour it. It makes oblong brown-edged lesions with a grey centre on the sheath; a powdery whitish fungal growth appears inside. Because the panicle is trapped, it emerges only partly, with grains that are unfilled, discoloured or rotted — directly cutting yield.",
+          "management": {
+            "organic": [
+              "Use clean seed and resistant/tolerant varieties.",
+              "Control mites and stem insects that wound the boot.",
+              "Avoid excess nitrogen and very dense planting; balance with potassium.",
+              "Seed treatment with Pseudomonas fluorescens / Trichoderma."
+            ],
+            "chemical": [
+              "Foliar carbendazim, mancozeb or a propiconazole-type triazole.",
+              "Combine with an acaricide/insecticide if mites or bugs are wounding the boot."
+            ],
+            "application": [
+              "Spray at the boot-leaf stage, just before the panicle emerges — the protective window.",
+              "Aim spray at the top sheath/boot; repeat once at early heading if humid.",
+              "Treat seed before sowing to lower the carry-over from previous crops."
+            ]
+          },
+          "affectedStages": [
+            "heading"
+          ]
+        },
+        {
+          "name": "Rice Tungro",
+          "pathogen": "RTBV + RTSV — vectored by the green leafhopper (Nephotettix virescens)",
+          "cause": "A pair of viruses — Rice Tungro Bacilliform Virus (RTBV) and Rice Tungro Spherical Virus (RTSV) — that cannot move on their own and depend entirely on a leafhopper to carry them.",
+          "transmission": {
+            "routes": [
+              "Green leafhopper (Nephotettix virescens) is the main vector",
+              "Spread in a semi-persistent way — the insect transmits soon after feeding but does not pass it to its eggs",
+              "Carried from infected ratoons, volunteer rice and nearby infected fields"
+            ]
+          },
+          "originSpread": "The cycle is insect-driven. A green leafhopper feeds on a tungro-infected plant, picks up both viruses, then injects them while feeding on healthy plants — there is NO seed or soil spread. Infected plants show orange-to-yellow discolouration starting at the leaf tip and moving down the margin, with stunting and reduced tillering; early infection at the seedling/tillering stage is the most damaging. Outbreaks track leafhopper population peaks, staggered planting and a continuous supply of green host plants.",
+          "management": {
+            "organic": [
+              "Manage the vector, not just the virus — grow leafhopper-resistant / tungro-tolerant varieties.",
+              "Synchronise planting across the area and keep a rice-free fallow to break the insect cycle.",
+              "Remove infected plants, ratoons and volunteer rice early; conserve natural enemies (spiders, mirid bugs).",
+              "Avoid early-season insecticide overuse that kills the natural predators of the leafhopper."
+            ],
+            "chemical": [
+              "Seedling-box / nursery treatment with a systemic insecticide (e.g. imidacloprid) to protect young plants.",
+              "Need-based foliar insecticide against the green leafhopper when monitoring shows it crossing threshold."
+            ],
+            "application": [
+              "There is no cure for the virus — all action targets the leafhopper, especially in the first 30–40 days.",
+              "Protect the nursery and just-transplanted crop, the stage when infection hurts most.",
+              "Spray only when leafhopper counts cross the local threshold; rotate insecticide groups to avoid resistance."
+            ]
+          },
+          "affectedStages": [
+            "seedling",
+            "tillering"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Wheat",
+      "scientificName": "Triticum aestivum",
+      "diseases": [
+        {
+          "name": "Stripe Rust (Yellow Rust)",
+          "pathogen": "Puccinia striiformis f. sp. tritici",
+          "cause": "The fungus Puccinia striiformis f. sp. tritici produces yellow to orange-yellow powdery pustules arranged in distinct parallel stripes running along leaf veins. It thrives in cool temperatures of 10–15°C with high humidity and is the most destructive rust disease of wheat in India.",
+          "transmission": {
+            "routes": [
+              "Wind-borne urediniospores travelling long distances between fields and regions",
+              "Infected volunteer wheat plants and self-sown seeds acting as green bridges",
+              "Movement of spores from higher altitude cooler regions to plains during season"
+            ]
+          },
+          "originSpread": "Spores overwinter on volunteer wheat or alternate hosts in cooler regions and hills. In early spring, wind carries urediniospores to wheat crops in plains. Cool temperatures (10–15°C) with dew or light rain trigger germination and infection. Yellow powdery pustules appear in neat rows along veins on leaves, sheaths and sometimes spikes. In severe epidemics the entire canopy turns yellow, photosynthesis collapses and grain filling is severely reduced causing yield losses up to 70%.",
+          "management": {
+            "organic": [
+              "Grow resistant varieties such as HD 2967, GW 322 and other notified resistant cultivars.",
+              "Early sowing to allow the crop to escape peak rust season.",
+              "Destroy volunteer wheat plants and crop debris that act as green bridges between seasons.",
+              "Monitor fields weekly from tillering onwards especially in cool humid weather."
+            ],
+            "chemical": [
+              "Spray propiconazole 25 EC at 0.1% (1 ml per litre) at first appearance of pustules.",
+              "Tebuconazole or hexaconazole at recommended doses as alternative triazole fungicides.",
+              "Mancozeb 75 WP at 2.5 g per litre as a protective spray before disease onset in high risk areas."
+            ],
+            "application": [
+              "Apply at first sighting of yellow pustules — do not wait for widespread infection.",
+              "Spray in the morning covering both upper and lower leaf surfaces thoroughly.",
+              "Repeat after 15 days if cool humid weather continues.",
+              "Use high volume sprayer to ensure complete canopy coverage."
+            ]
+          },
+          "affectedStages": [
+            "tillering",
+            "heading"
+          ]
+        },
+        {
+          "name": "Leaf Rust (Brown Rust)",
+          "pathogen": "Puccinia triticina",
+          "cause": "Puccinia triticina causes circular to oval orange-brown powdery pustules scattered randomly on the upper leaf surface. It is the most widely distributed rust disease of wheat globally and occurs every season across the Indian subcontinent.",
+          "transmission": {
+            "routes": [
+              "Wind-borne urediniospores spreading from plant to plant and field to field",
+              "Infected crop residue and volunteer wheat plants",
+              "Long distance dispersal by wind currents from one region to another"
+            ]
+          },
+          "originSpread": "Urediniospores survive on volunteer wheat or crop debris and are carried by wind to new crops. Warm temperatures of 15–22°C with leaf wetness from dew or rain favour infection. Orange-brown powdery pustules appear randomly scattered on upper leaf surface without the stripe pattern seen in yellow rust. As the season progresses pustules turn dark black as teliospores form. Severe infection causes premature leaf death reducing photosynthetic area and grain weight significantly.",
+          "management": {
+            "organic": [
+              "Use resistant varieties and rotate them to prevent race adaptation.",
+              "Timely sowing and balanced fertilisation to avoid lush susceptible growth.",
+              "Remove crop debris and volunteer plants after harvest."
+            ],
+            "chemical": [
+              "Propiconazole 25 EC at 0.1% sprayed at first pustule appearance.",
+              "Mancozeb 75 WP at 2.5 g per litre as protective application.",
+              "Tebuconazole as an alternative where propiconazole resistance is suspected."
+            ],
+            "application": [
+              "Spray at first appearance of brown pustules on lower leaves.",
+              "Cover both leaf surfaces completely with the spray.",
+              "Repeat after 12–15 days if warm humid weather continues."
+            ]
+          },
+          "affectedStages": [
+            "tillering",
+            "heading",
+            "mature"
+          ]
+        },
+        {
+          "name": "Stem Rust (Black Rust)",
+          "pathogen": "Puccinia graminis f. sp. tritici",
+          "cause": "Puccinia graminis f. sp. tritici produces large elongated brick-red to dark brown powdery pustules on stems, leaf sheaths and leaves with torn ragged epidermis. It is historically the most devastating wheat disease and the Ug99 race remains a global threat.",
+          "transmission": {
+            "routes": [
+              "Wind-borne urediniospores travelling very long distances",
+              "Sexual reproduction on barberry (Berberis) alternate host producing new virulent races",
+              "Infected crop residue surviving in mild winter regions"
+            ]
+          },
+          "originSpread": "The fungus produces urediniospores on infected plants that are carried by wind over hundreds of kilometres. Warm temperatures of 18–25°C with high humidity and dew favour rapid infection and spread. Large elongated pustules erupt through the stem epidermis leaving ragged edges. As the disease matures pustules turn black with teliospores. Stem weakening causes lodging and the combination of reduced photosynthesis and grain filling leads to severe yield loss. The Ug99 race discovered in Uganda in 1999 can overcome most known resistance genes.",
+          "management": {
+            "organic": [
+              "Grow resistant varieties — this is the primary and most effective control.",
+              "Eradicate barberry plants near wheat fields to eliminate the alternate host.",
+              "Early sowing to avoid peak disease period.",
+              "Monitor fields closely from heading stage."
+            ],
+            "chemical": [
+              "Propiconazole 25 EC at 0.1% at first symptom appearance.",
+              "Mancozeb 75 WP at 2.5 g per litre as protective spray.",
+              "Tebuconazole or trifloxystrobin combinations for systemic protection."
+            ],
+            "application": [
+              "Spray protectively at heading stage in high risk seasons.",
+              "Direct spray at stems and lower canopy where pustules first appear.",
+              "Repeat after 14 days if warm humid weather persists."
+            ]
+          },
+          "affectedStages": [
+            "heading",
+            "mature"
+          ]
+        },
+        {
+          "name": "Loose Smut",
+          "pathogen": "Ustilago tritici",
+          "cause": "Ustilago tritici replaces the entire wheat spike with a dark olive-brown to black powdery mass of teliospores enclosed in a thin membrane that ruptures at heading. It is a seed-borne disease that infects flowers during the previous season.",
+          "transmission": {
+            "routes": [
+              "Seed-borne — mycelium carried inside infected seed from previous crop",
+              "Air-borne teliospores released at heading landing on healthy flowers",
+              "Spores infect ovaries of healthy flowers during anthesis and remain dormant in seed"
+            ]
+          },
+          "originSpread": "The fungus survives as dormant mycelium inside apparently healthy-looking seed. When infected seed is sown the mycelium grows systemically through the seedling into all tissues. At heading instead of a normal spike the fungus converts all floral parts into a mass of black teliospores covered by a thin grey membrane. This membrane ruptures at heading releasing clouds of black spores that infect flowers of neighbouring healthy plants. The infected seed produced looks normal but carries the pathogen inside making seed selection critical.",
+          "management": {
+            "organic": [
+              "Use certified disease-free seed from a reliable source every season.",
+              "Hot water seed treatment — soak seed at 52°C for 10 minutes then dry and sow.",
+              "Rogue out smutted spikes immediately before the membrane ruptures to prevent spore release.",
+              "Never save seed from a field that showed loose smut infection."
+            ],
+            "chemical": [
+              "Seed treatment with carboxin 75 WP or carboxin + thiram at 2.5 g per kg of seed.",
+              "Tebuconazole seed dressing at 1.5 g per kg of seed as a systemic alternative.",
+              "Vitavax Power (carboxin + thiram) is the most recommended treatment for loose smut."
+            ],
+            "application": [
+              "Treat every batch of seed before sowing — this is the only effective control point.",
+              "Mix fungicide powder with seed thoroughly to ensure uniform coating.",
+              "Sow treated seed within 24 hours of treatment.",
+              "For hot water treatment dry seed completely in shade before sowing."
+            ]
+          },
+          "affectedStages": [
+            "heading"
+          ]
+        },
+        {
+          "name": "Common Bunt (Stinking Bunt)",
+          "pathogen": "Tilletia caries / Tilletia foetida",
+          "cause": "Tilletia caries and Tilletia foetida replace wheat grains with round dark bunt balls filled with black powdery teliospores that emit a strong fishy smell due to trimethylamine. The spike retains its shape unlike loose smut making it detectable at harvest.",
+          "transmission": {
+            "routes": [
+              "Seed-borne teliospores clinging to seed surface from previous infected crop",
+              "Soil-borne teliospores surviving for several years in the soil",
+              "Contaminated harvesting equipment and storage facilities"
+            ]
+          },
+          "originSpread": "Teliospores cling to seed surface or survive in soil. When seed is sown in cool moist soil the teliospores germinate and infect the seedling at or below soil surface before emergence. The fungus grows systemically and at heading replaces individual grains with bunt balls. The bunt balls remain enclosed by intact glumes giving the spike a normal shape but slightly bluish-green colour. At harvest bunt balls rupture releasing black spores and the strong fishy smell that contaminates the entire grain lot reducing its market value to zero.",
+          "management": {
+            "organic": [
+              "Use certified clean seed and avoid seed from fields with bunt history.",
+              "Deep ploughing to bury soil-borne spores below germination zone.",
+              "Avoid early sowing in cold wet soils which favour infection.",
+              "Salt water flotation to separate light bunt balls from healthy seed."
+            ],
+            "chemical": [
+              "Seed treatment with carboxin + thiram (Vitavax Power) at 2.5 g per kg.",
+              "Thiram 75 WS at 2.5 g per kg of seed as a contact fungicide treatment.",
+              "Tebuconazole seed dressing at 1.5 g per kg as systemic alternative."
+            ],
+            "application": [
+              "Treat seed before every sowing without exception.",
+              "Ensure uniform fungicide coating by mixing seed and fungicide in a sealed bag.",
+              "Do not use seed from a bunted crop even after fungicide treatment.",
+              "Clean and disinfect all harvesting and threshing equipment to prevent carry-over."
+            ]
+          },
+          "affectedStages": [
+            "heading",
+            "mature"
+          ]
+        },
+        {
+          "name": "Karnal Bunt",
+          "pathogen": "Tilletia indica",
+          "cause": "Tilletia indica is a quarantine pathogen that partially replaces the grain endosperm with black powdery teliospores — unlike common bunt where whole grains are replaced, Karnal bunt only partially infects individual grains. It has significant international trade implications.",
+          "transmission": {
+            "routes": [
+              "Air-borne teliospores and secondary zoospores infecting flowers at heading",
+              "Soil-borne teliospores surviving for many years in infected fields",
+              "Movement of infected seed and grain in trade causing international quarantine restrictions"
+            ]
+          },
+          "originSpread": "Teliospores in soil germinate to produce zoospores or the spores are carried by air to infect flowers at heading and early grain fill. Cool temperatures of 18–20°C with high humidity and rain at flowering favour infection. Only some grains per spike are partially infected giving the characteristic appearance of healthy and partially black grains in the same spike. Even 1–2% infection makes the entire grain lot unacceptable for export. First reported from Karnal, Haryana in 1931 it remains a major barrier to Indian wheat exports.",
+          "management": {
+            "organic": [
+              "Grow resistant or tolerant varieties notified by state agricultural universities.",
+              "Avoid fields with history of Karnal bunt infection.",
+              "Do not use seed from infected fields.",
+              "Strict quarantine — do not move seed from infected areas to clean areas."
+            ],
+            "chemical": [
+              "Propiconazole 25 EC at 0.1% sprayed at boot stage just before heading.",
+              "Second spray of propiconazole at 50% heading for high risk seasons.",
+              "Seed treatment with carboxin + thiram to reduce seed-borne carry-over."
+            ],
+            "application": [
+              "Timing is critical — spray at boot leaf stage before spike emerges.",
+              "Cover the entire upper canopy especially the flag leaf and emerging spike.",
+              "Repeat at heading if cool humid weather with rain continues.",
+              "Report any suspected new occurrence to the local plant protection office immediately."
+            ]
+          },
+          "affectedStages": [
+            "heading",
+            "mature"
+          ]
+        },
+        {
+          "name": "Powdery Mildew",
+          "pathogen": "Blumeria graminis f. sp. tritici",
+          "cause": "Blumeria graminis f. sp. tritici produces a white to greyish powdery superficial mycelial growth on upper leaf surfaces. Unlike most fungal pathogens it does not require free water for infection and actually prefers moderate humidity with cool temperatures.",
+          "transmission": {
+            "routes": [
+              "Air-borne conidia spreading rapidly from plant to plant in dry windy conditions",
+              "Cleistothecia on infected debris releasing ascospores to start new infections",
+              "Rapid spread within dense susceptible canopy through air movement"
+            ]
+          },
+          "originSpread": "The fungus overwinters as cleistothecia on crop debris. In spring and early season ascospores and conidia infect young leaves. Unlike rust and blight it thrives in moderate humidity without free water, making dense heavily fertilised crops particularly susceptible. White powdery colonies first appear on lower leaves and spread upward through conidia dispersed by wind. As colonies age they turn grey and small black cleistothecia appear within the mycelium. Severe infection on flag leaf and spike reduces grain filling and yield.",
+          "management": {
+            "organic": [
+              "Grow resistant varieties and avoid excessive nitrogen which promotes lush susceptible growth.",
+              "Maintain optimal plant spacing to improve air circulation within the canopy.",
+              "Remove and destroy infected crop debris after harvest.",
+              "Avoid overhead irrigation which creates humid canopy conditions."
+            ],
+            "chemical": [
+              "Propiconazole 25 EC at 0.1% at first powdery colony appearance.",
+              "Sulphur 80 WP at 3 g per litre as a contact fungicide option.",
+              "Hexaconazole or tebuconazole as triazole alternatives."
+            ],
+            "application": [
+              "Spray at first white colony appearance on lower leaves.",
+              "Ensure thorough coverage of all leaf surfaces including undersides.",
+              "Repeat after 15 days if cool dry conditions favour continued spread.",
+              "Avoid spraying sulphur in high temperatures above 35°C as it may cause phytotoxicity."
+            ]
+          },
+          "affectedStages": [
+            "seedling",
+            "tillering",
+            "heading"
+          ]
+        },
+        {
+          "name": "Flag Smut",
+          "pathogen": "Urocystis agropyri",
+          "cause": "Urocystis agropyri is a soil and seed-borne fungus that infects seedlings causing long grey-black powdery streaks running parallel to leaf veins that shred the leaf into narrow strips as the disease progresses.",
+          "transmission": {
+            "routes": [
+              "Soil-borne teliospores surviving for several years in infected soil",
+              "Seed-borne spores carried on seed surface from previous infected crop",
+              "Infected plant debris incorporated into soil during tillage"
+            ]
+          },
+          "originSpread": "Teliospores in soil or on seed germinate and infect the seedling at or just below the soil surface. The fungus grows systemically through all above-ground plant parts. Long dark grey to black powdery streaks appear parallel to veins on leaves and sheaths. As infection progresses the leaf tissue between veins shreds into long narrow ribbons exposing the black spore mass. Infected plants are stunted with poor tillering and rarely produce a spike. The soil-borne nature means infected fields continue to cause losses for several years even with clean seed.",
+          "management": {
+            "organic": [
+              "Use certified clean seed free from surface-borne spores.",
+              "Avoid planting in fields with a known history of flag smut.",
+              "Deep summer ploughing to expose and kill soil-borne spores.",
+              "Long crop rotation of 3–4 years with non-host crops to reduce soil inoculum."
+            ],
+            "chemical": [
+              "Seed treatment with carboxin + thiram at 2.5 g per kg of seed.",
+              "Tebuconazole seed dressing at 1.5 g per kg as a systemic alternative.",
+              "Soil application of fungicides in severely infected fields before sowing."
+            ],
+            "application": [
+              "Treat seed before every sowing in fields with smut history.",
+              "Ensure complete and uniform seed coating with fungicide.",
+              "Combine seed treatment with crop rotation for best results.",
+              "Do not sow in waterlogged poorly drained soils which favour infection."
+            ]
+          },
+          "affectedStages": [
+            "seedling",
+            "tillering"
+          ]
+        },
+        {
+          "name": "Spot Blotch",
+          "pathogen": "Bipolaris sorokiniana",
+          "cause": "Bipolaris sorokiniana causes dark brown to black irregular blotches on wheat leaves with water-soaked margins and concentric zonation. It is the most important foliar disease of wheat in the warm humid plains of South Asia including eastern and central India.",
+          "transmission": {
+            "routes": [
+              "Seed-borne conidia carried on infected seed surface",
+              "Air-borne conidia splashed and wind-carried from infected debris and plants",
+              "Infected crop residue in soil releasing spores during the next season"
+            ]
+          },
+          "originSpread": "The fungus survives on seed and infected crop debris. Warm temperatures of 25–30°C with high humidity and frequent rains favour rapid development making it particularly severe in eastern India. Conidia germinate on leaf surface with free water and penetrate through stomata or directly. Dark brown irregular blotches with water-soaked margins appear and enlarge with concentric zonation. Blotches coalesce causing large necrotic areas and premature leaf death from the bottom upward. Spike infection causes dark discolouration of glumes and grain reducing quality and germination.",
+          "management": {
+            "organic": [
+              "Use clean certified seed and grow tolerant varieties suited to warm humid regions.",
+              "Seed treatment with Trichoderma viride to reduce seed-borne inoculum.",
+              "Timely sowing to match the crop heading with drier weather.",
+              "Remove and destroy infected crop debris by deep ploughing."
+            ],
+            "chemical": [
+              "Seed treatment with carboxin + thiram or mancozeb at 2.5 g per kg.",
+              "Foliar spray of propiconazole 25 EC at 0.1% at first blotch appearance.",
+              "Mancozeb 75 WP at 2.5 g per litre as a protective contact fungicide."
+            ],
+            "application": [
+              "Apply seed treatment without fail as first line of defence.",
+              "Begin foliar spray at tillering when first blotches appear on lower leaves.",
+              "Repeat spraying after 12–15 days during warm humid weather.",
+              "Cover lower leaves thoroughly as disease progresses upward from base."
+            ]
+          },
+          "affectedStages": [
+            "tillering",
+            "heading",
+            "mature"
+          ]
+        },
+        {
+          "name": "Foot Rot / Root Rot",
+          "pathogen": "Fusarium culmorum / Gaeumannomyces graminis / Pythium spp.",
+          "cause": "A complex of soil-borne fungi including Fusarium culmorum, Gaeumannomyces graminis (take-all) and Pythium species that rot the crown, stem base and roots causing seedling death and tiller death in older plants.",
+          "transmission": {
+            "routes": [
+              "Soil-borne inoculum surviving on infected crop debris for many years",
+              "Seed-borne Fusarium spores carried on infected seed surface",
+              "Waterlogged poorly drained soils concentrating and spreading inoculum"
+            ]
+          },
+          "originSpread": "Soil-borne fungi infect roots and crown tissue of germinating seedlings and young plants. Cool wet soils at sowing favour Pythium and Fusarium while Gaeumannomyces (take-all) is more active in neutral to alkaline well-drained soils. Brown to dark brown rotting appears on roots and crown; stem base shows internal brown discolouration. Infected tillers die giving dead heart symptom. Affected plants are easily pulled from soil due to rotted roots. Patches of stunted yellowish dying plants appear in the field. Continuous wheat cultivation in the same field dramatically increases take-all severity over years.",
+          "management": {
+            "organic": [
+              "Avoid waterlogging — ensure good field drainage before sowing.",
+              "Crop rotation — avoid continuous wheat cultivation in the same field.",
+              "Apply Trichoderma viride or Pseudomonas fluorescens as seed treatment or soil application.",
+              "Use well decomposed organic matter to improve soil health and biological suppression."
+            ],
+            "chemical": [
+              "Seed treatment with carboxin + thiram or thiram alone at 2.5 g per kg.",
+              "Carbendazim seed treatment at 2 g per kg for Fusarium foot rot.",
+              "Soil drenching with carbendazim in severely affected patches."
+            ],
+            "application": [
+              "Seed treatment is the most practical control measure — apply before every sowing.",
+              "Improve drainage before sowing to reduce soil wetness favouring infection.",
+              "Apply Trichoderma to soil as furrow application at sowing for long term suppression.",
+              "Rotate with legumes or other non-host crops for at least one season."
+            ]
+          },
+          "affectedStages": [
+            "seedling",
+            "tillering"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Cotton",
+      "scientificName": "Gossypium hirsutum",
+      "diseases": [
+        {
+          "name": "Alternaria Leaf Spot",
+          "pathogen": "Alternaria macrospora / Alternaria alternata",
+          "cause": "Alternaria macrospora and Alternaria alternata produce circular to irregular brown to dark brown lesions on leaves with concentric rings giving a target-board appearance. A yellow chlorotic halo surrounds mature lesions. Heavy infection causes premature defoliation reducing boll retention and fibre quality.",
+          "transmission": {
+            "routes": [
+              "Air-borne conidia produced on infected leaf surface dispersed by wind and rain splash",
+              "Seed-borne mycelium and spores carried on infected seed coat",
+              "Infected crop debris in the field serving as primary inoculum source"
+            ]
+          },
+          "originSpread": "The fungus overwinters on infected crop debris and seed. Warm humid weather with temperatures of 25–30°C and frequent rain or heavy dew favour conidial germination and rapid infection. Lesions first appear on older lower leaves and progress upward. Target-board concentric zonation is the key diagnostic feature. Under severe disease pressure lesions coalesce and entire leaves yellow and drop, exposing bolls to sunscald and secondary infections. The disease is most damaging during the boll development stage when premature defoliation reduces photosynthate supply to filling bolls.",
+          "management": {
+            "organic": [
+              "Use disease-free certified seed and resistant or tolerant varieties.",
+              "Remove and destroy infected crop debris by deep ploughing after harvest.",
+              "Maintain optimal plant spacing to improve air circulation and reduce leaf wetness duration.",
+              "Avoid overhead irrigation that keeps the canopy wet for extended periods."
+            ],
+            "chemical": [
+              "Spray mancozeb 75 WP at 2.5 g per litre at first lesion appearance.",
+              "Iprodione 50 WP at 1 g per litre as an alternative contact fungicide.",
+              "Propiconazole 25 EC at 0.1% for systemic curative action in severe outbreaks."
+            ],
+            "application": [
+              "Begin spraying at first signs of target-board lesions on lower leaves.",
+              "Cover both upper and lower leaf surfaces thoroughly.",
+              "Repeat every 10–15 days during warm wet weather.",
+              "Add a sticker to improve adherence of contact fungicides."
+            ]
+          },
+          "affectedStages": [
+            "vegetative",
+            "flowering",
+            "boll_maturation"
+          ]
+        },
+        {
+          "name": "Anthracnose",
+          "pathogen": "Colletotrichum gossypii",
+          "cause": "Colletotrichum gossypii causes dark sunken cankers on seedling stems at the soil line, reddish-brown circular lesions on leaves, and dark sunken spots on bolls. It is the causal agent of seedling damping-off, boll rot and angular leaf spot working together with other pathogens.",
+          "transmission": {
+            "routes": [
+              "Seed-borne mycelium and spores inside and on the seed coat",
+              "Rain-splashed conidia from infected plant parts and debris to healthy tissue",
+              "Infected crop residue persisting in soil as primary inoculum"
+            ]
+          },
+          "originSpread": "Conidia on seed germinate to infect emerging hypocotyls causing damping-off in cool wet seedbed conditions. On older plants rain-splash disperses conidia from infected debris to leaves and bolls. Warm temperatures of 22–28°C combined with high rainfall and humidity favour disease spread. On bolls the pathogen causes dark sunken spots that allow entry of secondary organisms causing boll rot. In severe outbreaks heavy boll infection results in stained lint and seed that fails germination in the next season.",
+          "management": {
+            "organic": [
+              "Use treated certified seed from disease-free crops.",
+              "Rogue and remove severely infected seedlings and bolls promptly.",
+              "Ensure good field drainage to avoid waterlogged seedbed conditions.",
+              "Rotate cotton with non-host crops to reduce soil-borne inoculum."
+            ],
+            "chemical": [
+              "Seed treatment with carboxin + thiram at 2.5 g per kg before sowing.",
+              "Foliar spray of mancozeb 75 WP at 2.5 g per litre at early symptom stage.",
+              "Copper oxychloride 50 WP at 3 g per litre as protective boll spray."
+            ],
+            "application": [
+              "Seed treatment is the first critical step before every sowing.",
+              "Apply boll sprays at boll set when warm wet conditions favour infection.",
+              "Direct spray at bolls and lower canopy where infection starts.",
+              "Repeat at 10-day intervals during wet humid periods."
+            ]
+          },
+          "affectedStages": [
+            "seedling",
+            "vegetative",
+            "flowering"
+          ]
+        },
+        {
+          "name": "Bacterial Blight (Angular Leaf Spot)",
+          "pathogen": "Xanthomonas axonopodis pv. malvacearum",
+          "cause": "Xanthomonas axonopodis pv. malvacearum causes angular water-soaked lesions on leaves bounded by leaf veins giving the characteristic angular shape. It also causes dark elongated stem cankers, black arm on branches and boll infection resulting in lint and seed contamination.",
+          "transmission": {
+            "routes": [
+              "Seed-borne bacteria carried on lint fibres and inside seed coat",
+              "Rain-splash and wind dispersal of bacteria from infected leaves",
+              "Contaminated field tools and irrigation water spreading the pathogen"
+            ]
+          },
+          "originSpread": "The bacterium survives on infected seed and lint. When infected seed is sown the bacteria multiply on germinating seedlings. Warm humid weather with temperatures of 28–32°C and frequent rain favours rapid multiplication and spread. Angular water-soaked lesions confined between veins are the hallmark of the disease. Lesions turn dark brown and dry out. Stem infection causes black discolouration and girdles the branch causing black arm dieback. Boll infection stains lint and reduces seed germination. The disease is most severe during rainy weather from vegetative to boll maturation stages.",
+          "management": {
+            "organic": [
+              "Use resistant varieties — this is the most economical management strategy.",
+              "Use delinted acid-treated certified seed to eliminate seed-borne inoculum.",
+              "Avoid overhead irrigation during humid weather to reduce leaf wetness.",
+              "Remove and destroy infected plant material and debris after harvest."
+            ],
+            "chemical": [
+              "Seed treatment with streptocycline 100 ppm or copper sulphate solution before sowing.",
+              "Foliar spray of copper oxychloride 50 WP at 3 g per litre at first lesion appearance.",
+              "Streptomycin sulphate + tetracycline at 200 ppm spray for bacterial control."
+            ],
+            "application": [
+              "Begin spraying at first angular water-soaked lesions — bacteria spread fast in rain.",
+              "Spray in the morning so leaves dry before evening.",
+              "Repeat every 10 days during warm wet periods.",
+              "Do not work in the field when plants are wet to avoid mechanical spread."
+            ]
+          },
+          "affectedStages": [
+            "seedling",
+            "vegetative",
+            "flowering"
+          ]
+        },
+        {
+          "name": "Boll Rot",
+          "pathogen": "Fusarium spp. / Diplodia gossypina / Aspergillus spp.",
+          "cause": "Boll rot is caused by a complex of secondary fungi including Fusarium, Diplodia, Aspergillus and Colletotrichum that enter bolls through wounds caused by insects, rain cracking or primary pathogens. The boll locks, lint stains, seeds decay and the boll surface is covered with fungal growth.",
+          "transmission": {
+            "routes": [
+              "Entry through insect feeding wounds especially pink bollworm and spotted bollworm holes",
+              "Air-borne and rain-splashed spores of secondary fungi reaching wounded boll surface",
+              "Primary infections by Colletotrichum or Xanthomonas opening the way for secondary rotters"
+            ]
+          },
+          "originSpread": "Secondary rotting fungi are opportunistic pathogens that require a wound or primary infection for entry. Bollworm damage, mechanical injury and prolonged rain create entry points. Inside the humid warm boll cavity fungi spread rapidly through all locules rotting lint and seed. Externally the boll surface shows dark sunken spots, water-soaked areas and cottony or powdery fungal growth. Affected bolls either lock shut, open prematurely with stained lint or fail to open at all. Yield losses are directly proportional to boll infestation and wet weather duration at boll development.",
+          "management": {
+            "organic": [
+              "Control bollworm insects promptly to prevent wound entry for secondary fungi.",
+              "Avoid dense crop stands and excessive nitrogen that creates humid humid microclimate.",
+              "Pick and destroy all rotted bolls to reduce spore load in the field.",
+              "Grow varieties with storm-resistant bolls or open boll architecture."
+            ],
+            "chemical": [
+              "Spray copper oxychloride 50 WP at 3 g per litre as protective boll treatment.",
+              "Mancozeb 75 WP at 2.5 g per litre at boll set in high risk wet seasons.",
+              "Integrate insecticide + fungicide sprays to control entry wounds and rot simultaneously."
+            ],
+            "application": [
+              "Apply protective fungicide sprays just before wet humid spells during boll fill.",
+              "Direct spray at developing bolls ensuring thorough coverage of boll surface.",
+              "Repeat every 10 days during prolonged wet weather at boll maturation.",
+              "Harvest promptly once bolls open to avoid post-maturity rotting."
+            ]
+          },
+          "affectedStages": [
+            "flowering",
+            "boll_maturation"
+          ]
+        },
+        {
+          "name": "Cercospora Leaf Spot",
+          "pathogen": "Cercospora gossypina",
+          "cause": "Cercospora gossypina produces circular reddish-brown to dark brown spots with a lighter grey-tan centre and a distinct dark brown border. Under humid conditions a grey powdery sporulating mass of conidia forms in the lesion centre. Heavy infection causes premature leaf drop and boll shedding.",
+          "transmission": {
+            "routes": [
+              "Air-borne and rain-splashed conidia produced abundantly on infected leaves",
+              "Infected crop debris carrying the pathogen through the off-season",
+              "Seed-borne inoculum on the seed coat starting early season infection"
+            ]
+          },
+          "originSpread": "Conidia produced on sporulating lesions are dispersed by wind and rain splash to healthy leaves. Warm temperatures of 26–32°C with high relative humidity and frequent rain favour rapid disease development. Lesions first appear on older lower leaves and progressively move upward. The grey spore mass in the lesion centre distinguishes Cercospora from Alternaria. Severe early defoliation reduces the canopy area available for photosynthesis during boll fill leading to lighter boll weights and reduced lint yield.",
+          "management": {
+            "organic": [
+              "Use disease-tolerant varieties and certified disease-free seed.",
+              "Destroy crop debris thoroughly after harvest to reduce carry-over inoculum.",
+              "Avoid excessive irrigation and dense planting that prolongs leaf wetness.",
+              "Balanced potassium nutrition improves leaf resistance to Cercospora infection."
+            ],
+            "chemical": [
+              "Mancozeb 75 WP at 2.5 g per litre as protective contact spray.",
+              "Carbendazim 50 WP at 1 g per litre for systemic curative action.",
+              "Copper oxychloride 50 WP at 3 g per litre as alternative protective treatment."
+            ],
+            "application": [
+              "Start spray at first circular reddish-brown spots on lower leaves.",
+              "Cover both leaf surfaces — conidia form on undersides and spread upward.",
+              "Repeat every 12–15 days during warm humid weather.",
+              "Avoid late evening spraying to ensure leaf surfaces dry before night."
+            ]
+          },
+          "affectedStages": [
+            "vegetative",
+            "flowering",
+            "boll_maturation"
+          ]
+        },
+        {
+          "name": "Fusarium Wilt",
+          "pathogen": "Fusarium oxysporum f. sp. vasinfectum",
+          "cause": "Fusarium oxysporum f. sp. vasinfectum colonises the xylem vessels of cotton causing vascular browning, yellowing of foliage and irreversible wilting. It is a soil-borne vascular pathogen that persists in the soil for decades and is aggravated by root-knot nematode co-infection.",
+          "transmission": {
+            "routes": [
+              "Soil-borne chlamydospores persisting for 20+ years in infected fields",
+              "Infected seed carrying the pathogen on the seed coat and internally",
+              "Root-knot nematode wounds facilitating root entry of the fungus"
+            ]
+          },
+          "originSpread": "Chlamydospores in soil germinate and infect roots. The fungus invades xylem vessels and produces toxins and tyloses that block water transport. Wilting begins on one side of the plant or in individual branches while others remain green — this asymmetric wilting is a key diagnostic. Internal stem cross-section shows brown vascular discolouration. Warm soil temperatures of 28°C favour rapid disease development. Nematode-infested fields show much more severe Fusarium wilt. Once a field is infested there is no practical way to eliminate the pathogen and rotation provides only partial relief.",
+          "management": {
+            "organic": [
+              "Grow resistant or tolerant varieties — the only reliable long-term solution in infested fields.",
+              "Manage root-knot nematodes with neem cake or Paecilomyces to reduce wilt severity.",
+              "Apply Trichoderma viride or Pseudomonas fluorescens as seed treatment and soil application.",
+              "Avoid waterlogging and ensure good drainage which reduces root stress and infection."
+            ],
+            "chemical": [
+              "Seed treatment with carboxin + thiram at 2.5 g per kg of seed.",
+              "Carbendazim soil drenching at 1 g per litre around wilting plants at early stage.",
+              "Nematicide application (carbofuran 3G at 1 kg a.i. per hectare) to reduce nematode-wilt complex."
+            ],
+            "application": [
+              "Treat seed before sowing as the first line of protection.",
+              "Apply Trichoderma to furrows at sowing in fields with wilt history.",
+              "Drench carbendazim at base of wilting plants only at early symptom stage.",
+              "Remove and destroy severely wilted plants to reduce local inoculum spread."
+            ]
+          },
+          "affectedStages": [
+            "seedling",
+            "vegetative",
+            "flowering"
+          ]
+        },
+        {
+          "name": "Grey Mildew",
+          "pathogen": "Ramularia areola",
+          "cause": "Ramularia areola causes angular grey-white powdery lesions on the lower leaf surface corresponding to pale green to yellow angular areas on the upper surface. It is one of the most widespread and destructive foliar diseases of cotton in peninsular India particularly in irrigated crops.",
+          "transmission": {
+            "routes": [
+              "Air-borne conidia produced on the lower leaf surface dispersed by wind",
+              "Infected leaf debris carrying the pathogen between seasons",
+              "High humidity and moderate temperatures favouring rapid conidial germination"
+            ]
+          },
+          "originSpread": "The pathogen produces conidia abundantly on the lower leaf surface under humid conditions. Cool to moderate temperatures of 22–28°C with high relative humidity especially at night favour sporulation and infection. Angular lesions bounded by veins on the lower surface produce a grey-white powdery appearance due to dense conidiophore growth. The upper surface shows corresponding pale green-yellow angular areas. Severe infection from boll development onward causes premature defoliation exposing bolls to sun and reducing photosynthetic supply to filling bolls. It is most severe in October–November in irrigated cotton of Maharashtra and Gujarat.",
+          "management": {
+            "organic": [
+              "Grow less susceptible varieties and avoid excess nitrogen fertilisation.",
+              "Maintain wide row spacing to improve canopy ventilation.",
+              "Avoid late evening irrigation which raises overnight canopy humidity.",
+              "Remove and destroy infected lower leaves at early disease stage."
+            ],
+            "chemical": [
+              "Spray difenoconazole 25 EC at 0.05% (0.5 ml per litre) at first grey-white lesion appearance.",
+              "Propiconazole 25 EC at 0.1% as an effective triazole alternative.",
+              "Mancozeb 75 WP at 2.5 g per litre as a protective contact spray."
+            ],
+            "application": [
+              "Begin spray when grey-white patches appear on the lower surface of lower leaves.",
+              "Spray from below the canopy upward to reach lower leaf surfaces where sporulation occurs.",
+              "Repeat every 12–15 days as long as humid conditions persist.",
+              "Avoid use of sulphur-based fungicides as cotton is sensitive to sulphur phytotoxicity."
+            ]
+          },
+          "affectedStages": [
+            "vegetative",
+            "flowering",
+            "boll_maturation"
+          ]
+        },
+        {
+          "name": "Pink Boll Rot",
+          "pathogen": "Nematospora coryli / Phytophthora parasitica var. brasiliensis",
+          "cause": "Pink boll rot is associated with Phytophthora parasitica var. brasiliensis and secondary yeast-like organisms causing water-soaked chocolate-brown to pink external boll symptoms and internal rotting of seeds and lint with a characteristic sour-fermented smell. Pink bollworm (Pectinophora gossypiella) damage creates entry points for the pathogens.",
+          "transmission": {
+            "routes": [
+              "Soil-borne Phytophthora oospores splashed onto bolls by rain",
+              "Pink bollworm feeding tunnels providing entry for secondary organisms",
+              "Infected plant debris in the soil serving as persistent inoculum"
+            ]
+          },
+          "originSpread": "Oospores of Phytophthora in soil are splashed by heavy rain onto developing bolls. Cool wet weather during boll maturation phase favours infection and internal spread. Externally affected bolls show water-soaked dark brown areas. Inside, lint turns pink to brown and seeds show internal decay with a sour smell. Pink bollworm damage dramatically increases incidence by creating direct pathways into the boll. Affected bolls either fail to open or open with heavily stained unusable lint. The combination of insect damage and pathogen infection means integrated insect management is central to disease control.",
+          "management": {
+            "organic": [
+              "Control pink bollworm with pheromone traps and timely insecticide sprays to reduce boll entry points.",
+              "Avoid extended irrigation close to boll maturation which keeps the soil wet beneath the canopy.",
+              "Early harvesting of first-opened bolls before wet season worsens reduces losses.",
+              "Deep ploughing after harvest to destroy soil-borne oospores."
+            ],
+            "chemical": [
+              "Metalaxyl + mancozeb (Ridomil Gold) at 2.5 g per litre as Phytophthora-specific spray.",
+              "Copper oxychloride 50 WP at 3 g per litre as protective boll spray.",
+              "Integrate bollworm insecticides with fungicide sprays during boll fill under wet conditions."
+            ],
+            "application": [
+              "Apply metalaxyl-based spray after heavy rain events during boll maturation.",
+              "Direct spray at bolls ensuring coverage of boll base where soil splash contacts bolls.",
+              "Coordinate with insecticide spray for bollworm control to address both entry and infection.",
+              "Repeat every 10 days during prolonged cool wet periods at boll fill."
+            ]
+          },
+          "affectedStages": [
+            "flowering",
+            "boll_maturation"
+          ]
+        },
+        {
+          "name": "Root Rot",
+          "pathogen": "Rhizoctonia solani / Phytophthora parasitica",
+          "cause": "Rhizoctonia solani and Phytophthora parasitica are soil-borne pathogens that infect the tap root, lateral roots and hypocotyl causing brown to black rotting of root tissue, seedling damping-off, and slow decline of older plants. Root rot is most severe in heavy waterlogged soils.",
+          "transmission": {
+            "routes": [
+              "Soil-borne sclerotia and mycelium of Rhizoctonia surviving for many years",
+              "Soil-borne oospores of Phytophthora persisting in waterlogged conditions",
+              "Waterlogged or poorly drained soils concentrating and spreading inoculum"
+            ]
+          },
+          "originSpread": "Soil-borne fungi infect germinating seeds and seedling roots in cool wet conditions. Rhizoctonia causes pre-emergence and post-emergence damping-off with brown sunken lesions at the soil line. Phytophthora is more active in heavy rains and waterlogged conditions causing root and lower stem rot. Infected seedlings collapse or show stunted slow growth. On older plants roots turn brown and decay reducing water and nutrient uptake. Yellowing, wilting and premature shedding of leaves and bolls follow. The disease is most prevalent in poorly drained clay soils and fields with a history of continuous cotton cultivation.",
+          "management": {
+            "organic": [
+              "Ensure good field drainage — waterlogging is the primary predisposing factor.",
+              "Raise beds or ridges for planting in heavy soils prone to waterlogging.",
+              "Apply Trichoderma viride at 2.5 kg per hectare as soil incorporation before sowing.",
+              "Crop rotation with cereals or legumes to reduce soil-borne inoculum."
+            ],
+            "chemical": [
+              "Seed treatment with carboxin + thiram or captan at 2.5 g per kg of seed.",
+              "Metalaxyl + mancozeb soil drench at 2.5 g per litre around affected plants.",
+              "Carbendazim + mancozeb combination soil drench for Rhizoctonia-affected patches."
+            ],
+            "application": [
+              "Seed treatment before every sowing is non-negotiable in problem fields.",
+              "Improve drainage immediately at first sign of waterlogging.",
+              "Apply fungicide drench at plant base in affected patches at early symptom stage.",
+              "Apply Trichoderma to furrows at sowing for biological suppression over time."
+            ]
+          },
+          "affectedStages": [
+            "seedling",
+            "vegetative"
+          ]
+        },
+        {
+          "name": "Verticillium Wilt",
+          "pathogen": "Verticillium dahliae",
+          "cause": "Verticillium dahliae is a soil-borne vascular pathogen that colonises cotton xylem causing the distinctive acute and chronic wilt syndromes. The acute form causes sudden leaf roll, wilting and death; the chronic form causes interveinal chlorosis and necrosis giving a tiger-stripe or tortoiseshell mottling pattern.",
+          "transmission": {
+            "routes": [
+              "Soil-borne microsclerotia persisting for 10–15 years in infected fields",
+              "Infected transplant soil, irrigation water and contaminated farm tools",
+              "Root-to-root contact and mycelial spread through soil"
+            ]
+          },
+          "originSpread": "Microsclerotia in soil germinate when roots grow near them and infect root cortex cells. The fungus moves into xylem vessels producing toxins and blocking water flow. Symptoms appear at or after flowering when plant demand for water is highest. The chronic form shows interveinal mosaic yellowing and necrosis between veins (tiger-stripe pattern) without complete wilting. The acute form causes rapid collapse of entire plants. Cross-section of infected stems shows distinctive brown ring of discoloured vascular tissue. Cool soil temperatures of 20–25°C favour disease development distinguishing Verticillium from Fusarium wilt which is more severe in warm soils. Once established in a field the microsclerotia are almost impossible to eradicate.",
+          "management": {
+            "organic": [
+              "Grow resistant or tolerant varieties — essential strategy in Verticillium-sick fields.",
+              "Avoid deep tillage that brings microsclerotia-laden subsoil to the surface.",
+              "Solarisation of infested soil under polythene mulch for 6 weeks in summer reduces inoculum.",
+              "Apply organic matter and maintain good soil biological activity to suppress Verticillium."
+            ],
+            "chemical": [
+              "No curative chemical treatments are effective once the fungus is established in xylem.",
+              "Seed treatment with carboxin + thiram reduces early seedling infection pressure.",
+              "Soil fumigation with metam sodium in severe cases before replanting (high cost option)."
+            ],
+            "application": [
+              "Prevention is the only practical strategy — use resistant varieties in affected fields.",
+              "Apply seed treatment before sowing as protection in fields at risk.",
+              "Remove and destroy severely infected plants to reduce local microsclerotia production.",
+              "Do not grow cotton continuously in infested fields — rotate with non-host crops for 2–3 years."
+            ]
+          },
+          "affectedStages": [
+            "vegetative",
+            "flowering",
+            "boll_maturation"
+          ]
+        }
+      ]
+    }
+  ]
+}
