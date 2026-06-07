@@ -1,0 +1,8 @@
+# env files — never commit secrets
+backend/.env
+backend/.venv
+backend/__pycache__
+
+# frontend
+frontend/node_modules
+frontend/dist
