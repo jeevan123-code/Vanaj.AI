@@ -40,18 +40,27 @@ export default function VanajAIChat() {
       }))
 
       const API_URL = import.meta.env.VITE_API_URL || 'http://localhost:8000'
+      const controller = new AbortController()
+      const timeout = setTimeout(() => controller.abort(), 60000)
+
       const response = await fetch(`${API_URL}/chat`, {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
-        body: JSON.stringify({ message: userMessage, history })
+        body: JSON.stringify({ message: userMessage, history }),
+        signal: controller.signal
       })
+      clearTimeout(timeout)
 
-      if (!response.ok) throw new Error('VanajAI server error')
+      if (!response.ok) throw new Error('server error')
 
       const data = await response.json()
       setMessages(prev => [...prev, { role: 'assistant', content: data.reply }])
     } catch (err) {
-      setError('VanajAI is not running. Start the backend server.')
+      if (err.name === 'AbortError') {
+        setError('VanajAI is waking up — please try again in a moment.')
+      } else {
+        setError('Could not reach VanajAI. Please try again.')
+      }
     } finally {
       setLoading(false)
     }
@@ -101,7 +110,7 @@ export default function VanajAIChat() {
             </div>
             <div className="ml-auto flex items-center gap-1.5">
               <span className="w-2 h-2 rounded-full bg-gold animate-pulse"/>
-              <span className="text-paper/70 text-xs">Local AI</span>
+              <span className="text-paper/70 text-xs">Groq AI</span>
             </div>
           </div>
 
